@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+            <h1>Share Your Thoughts</h1>
+
+            <p class="counter">
+                <span id="count">0</span>/200
+            </p>
+
+            <textarea
+                id="text"
+                maxlength="200"
+                placeholder="type something.....">
+            </textarea>
+
+            <p id="remaining">200 characters left</p>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
